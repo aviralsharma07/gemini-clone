@@ -1,7 +1,3 @@
-Sure, here's the README file with the installation and usage instructions for your Gemini Clone project:
-
----
-
 # Gemini Clone
 
 Live Project Link: [Gemini Clone](https://gemini-clone-avi.netlify.app/)
@@ -46,35 +42,6 @@ Before running the project, you'll need to generate your own Gemini API key and 
 
 - @google/generative-ai: Used for interacting with Google's Generative AI.
 - React: JavaScript library for building user interfaces.
-
-## Folder Structure
-
-gemini-clone/
-├── node_modules/ # Dependencies installed by npm
-├── public/ # Static assets and HTML template
-│ ├── App.jsx # Main application component
-│ ├── Index.css # CSS styles for index.html
-│ ├── main.jsx # Main entry point for React app
-│ ├── assets/ # All images and other static assets
-│ └── Components/ # React components
-│ ├── Main/ # Main section components
-│ │ ├── Main.jsx # Main section component
-│ │ └── Main.css # CSS styles for Main section
-│ └── Sidebar/ # Sidebar components
-│ ├── Sidebar.jsx # Sidebar component
-│ └── Sidebar.css # CSS styles for Sidebar
-├── Config/ # Configuration files
-│ └── gemini.js # Configuration for Google Gemini API
-├── Context/ # React context files
-│ └── Context.jsx # React context provider
-├── src/ # Source files
-├── .eslintrc.cjs # ESLint configuration
-├── .gitignore # Git ignore file
-├── index.html # HTML template
-├── package-lock.json # Dependency lock file
-├── package.json # npm package metadata
-├── README.md # Project documentation
-└── vite.config.js # Vite configuration
 
 ## Let's Connect:
 
