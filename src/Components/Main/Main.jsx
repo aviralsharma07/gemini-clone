@@ -3,14 +3,23 @@ import "./Main.css";
 import assets from "../../assets/assets";
 import { Context } from "../../context/Context";
 import { useContext } from "react";
+import { FirebaseContext } from "../../context/Firebase";
 
 const Main = () => {
   const { onSent, recentPrompt, showResult, loading, resultData, setInput, input } = useContext(Context);
+  const { logOut } = useContext(FirebaseContext);
+
+  const handleLogout = () => {
+    logOut();
+  };
 
   return (
     <div className="main">
       <div className="nav">
         <p>Gemini</p>
+        <button className="logout" onClick={() => handleLogout()}>
+          Logout
+        </button>
         <img src={assets.user_icon} alt="" />
       </div>
 

@@ -12,6 +12,20 @@
   font-size: 22px;
   padding: 20px;
   color: #585858;
+  position: relative;
+
+  .logout {
+    cursor: pointer;
+    position: absolute;
+    right: 80px;
+    padding: 8px 13px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #5282ed;
+    font-size: 15px;
+    color: #fff;
+  }
 }
 
 .main .nav img {

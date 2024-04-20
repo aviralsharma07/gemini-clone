@@ -1,0 +1,234 @@
+/* --------------------- STYLING NAVBAR --------------------- */
+
+.authpage {
+  min-height: 100vh;
+  flex: 1;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.navbar p {
+  font-size: 24px;
+}
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 20px;
+  color: #585858;
+}
+
+.navbar ul,
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: auto;
+  cursor: pointer;
+  padding: 8px 13px;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+
+.navbar ul .btn {
+  padding: 7px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #5282ed;
+  font-size: 19px;
+  color: #fff;
+}
+
+.navbar ul li:not(:nth-child(4)):hover {
+  background-color: #d4dae1;
+}
+
+.navbar ul button:hover {
+  background-color: #3f6cb7;
+  cursor: pointer;
+}
+
+/* --------------------- STYLING MAIN --------------------- */
+
+.authpage .main-container {
+  /* border: 2px solid black; */
+  height: 100%;
+  display: flex;
+  min-width: 100vw;
+  padding-bottom: 100px;
+
+  .left,
+  .right {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    /* border: 1px solid red; */
+    margin-left: -100px;
+    padding-bottom: 100px;
+
+    .left-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    h2 {
+      margin-top: 20px;
+      font-size: 20px;
+      max-width: 20ch;
+      line-height: 1.2;
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: 16px;
+      max-width: 32ch;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      border-radius: 20px;
+      background-color: #5282ed;
+      font-size: 19px;
+      color: #fff;
+    }
+  }
+
+  .right {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+
+    .right-container {
+      /* width: 300px; */
+      padding: 30px;
+      /* border: 1px solid #ccc; */
+      border-radius: 5px;
+      /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
+      h2 {
+        margin-bottom: 10px;
+        font-size: 24px;
+        color: #333;
+      }
+
+      p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #666;
+        text-decoration: underline;
+      }
+
+      input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      .divider {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+      }
+
+      .divider hr {
+        flex: 1;
+        height: 1px;
+        background-color: #ccc;
+        border: none;
+      }
+
+      .divider p {
+        margin: 0 10px;
+        font-size: 14px;
+        color: #666;
+      }
+
+      p span {
+        color: #007bff;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/* --------------------- STYLING FOOTER --------------------- */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  padding: 20px;
+  color: #585858;
+  background-color: #d4dae1;
+  display: flex;
+  align-items: center;
+  /* margin-top: 55px; */
+}
+
+footer ul,
+footer li {
+  list-style-type: none;
+}
+
+footer li {
+  display: inline-block;
+  margin: auto;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #585858;
+}
+
+footer li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.google {
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
