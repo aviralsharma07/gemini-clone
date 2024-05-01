@@ -4,6 +4,16 @@ Live Project Link: [Gemini Clone](https://gemini-clone-avi.netlify.app/)
 
 Gemini Clone is a React project that utilizes Google's Generative AI to generate responses based on prompts provided by users.
 
+## Features
+
+1. Responsive chatbot application inspired by Google's Gemini chatbot.
+2. Integration of Google's Generative AI technology (Gemini Model 1.0) for conversational interactions.
+3. Firebase authentication for secure user login and account management.
+4. Utilization of React Context API for universal state management.
+5. Custom contexts for managing chat data, prompts, and user input.
+6. Google Sign-Up option for user convenience.
+7. Mobile-first approach for optimal usability on mobile devices.
+
 ## Installation
 
 1. Clone the repository:
@@ -47,4 +57,4 @@ Before running the project, you'll need to generate your own Gemini API key and 
 
 - LinkedIn: [aviral07](https://www.linkedin.com/in/aviral07/)
 - X: [\_aviral07](https://twitter.com/_aviral07)
-- HashNode [Blog](https://aviralsharma.hashnode.dev/)
+- HashNode: [Blog](https://aviralsharma.hashnode.dev/)

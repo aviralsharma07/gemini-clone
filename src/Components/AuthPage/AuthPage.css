@@ -3,10 +3,8 @@
 .authpage {
   min-height: 100vh;
   flex: 1;
-  /* width: 100vw; */
   display: flex;
   flex-direction: column;
-  /* position: relative; */
 }
 
 .navbar p {
@@ -67,23 +65,24 @@
 
   .left,
   .right {
-    flex: 1;
+    /* flex: 1;
     height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    display: flex;
   }
 
   .left {
-    /* border: 1px solid red; */
-    margin-left: -100px;
-    padding-bottom: 100px;
+    border: 1px solid red;
+    padding: 30px;
+    flex: 1;
 
     .left-container {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+      padding-left: 50px;
     }
 
     h2 {
@@ -113,18 +112,14 @@
   }
 
   .right {
-    /* border: 1px solid blue; */
-    display: flex;
-    justify-content: center;
+    border: 1px solid blue;
+    /* justify-content: center; */
     align-items: center;
     padding-right: 30px;
+    flex: 1;
 
     .right-container {
-      /* width: 300px; */
       padding: 30px;
-      /* border: 1px solid #ccc; */
-      border-radius: 5px;
-      /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 
       h2 {
         margin-bottom: 10px;
