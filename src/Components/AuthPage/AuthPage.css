@@ -74,11 +74,12 @@
   }
 
   .left {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 30px;
     flex: 1;
 
     .left-container {
+      /* border: 1px solid teal; */
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -112,7 +113,7 @@
   }
 
   .right {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* justify-content: center; */
     align-items: center;
     padding-right: 30px;
@@ -226,4 +227,50 @@ footer li:hover {
   margin-left: 5px;
   font-size: 20px;
   font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .authpage .navbar {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .authpage .navbar p {
+    font-size: 18px;
+  }
+
+  .authpage .navbar ul li {
+    padding: 2px 6px;
+  }
+
+  .authpage .navbar ul .btn {
+    padding: 5px 10px;
+    font-size: 16px;
+    display: block;
+  }
+
+  .authpage .main-container {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .authpage .main-container .left {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+  }
+
+  .authpage .main-container .left .left-container {
+    /* border: 1px solid brown; */
+    padding-left: 0;
+  }
+
+  footer {
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0;
+    /* border: 1px solid red; */
+  }
 }
